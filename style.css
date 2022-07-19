@@ -1,0 +1,47 @@
+body{
+    background-color: #f2cc8f;
+    font-family: 'Pacifico', cursive;
+}
+
+.heading{
+    color: #F4F1DE;
+}
+
+.row{
+    width: 100%;
+}
+
+.timer{
+    color: #e07a5f;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border: 5px solid #e07a5f;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Train.gif);
+}
+
+.fa-play, .fa-arrow-rotate-right{
+    color: #81B29A;
+    border: 2px solid transparent;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.fa-play:hover, .fa-arrow-rotate-right:hover{
+    color: #3D405B;
+    border: 2px solid #3D405B;
+    transition: 0.3s ease;
+}
+
+.show_message{
+    display: block;
+    padding: 1rem 0;
+    color: #e07a5f;
+    background: #f2cc8f;
+    border-radius: 0.5rem;
+    transition: 0.5s ease;
+}
