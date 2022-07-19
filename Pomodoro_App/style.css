@@ -22,6 +22,7 @@ body{
     justify-content: center;
     align-items: center;
     background-image: url(Train.gif);
+    background-position: -120px;
 }
 
 .fa-play, .fa-arrow-rotate-right{
